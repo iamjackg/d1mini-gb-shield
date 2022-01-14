@@ -27,7 +27,7 @@ It can be used with a bunch of cool projects:
 
 ## Purchasing
 
-You can get this made for about $8 before shipping at [OSHPark](https://oshpark.com/shared_projects/lIuomgBX) or any other PCB fab you want. Make sure the PCB is 1.6mm thick so it fits in the Game Boy cable.
+You can get this made for about $8 for three copies at [OSHPark](https://oshpark.com/shared_projects/lIuomgBX). Of course, any other PCB fab will also be able to make this. Make sure the PCB is 1.6mm thick so it fits in the Game Boy cable.
 
 ## Bill of materials
 
