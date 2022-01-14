@@ -1,0 +1,266 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L d1mini-gb-rescue:CONN_01X08 P1
+U 1 1 5763EB78
+P 5450 1850
+F 0 "P1" H 5450 2300 50  0000 C CNN
+F 1 "CONN_01X08" V 5550 1850 50  0000 C CNN
+F 2 "D1_mini:D1_mini_Pin_Header" H 5450 1850 50  0001 C CNN
+F 3 "" H 5450 1850 50  0000 C CNN
+	1    5450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L d1mini-gb-rescue:CONN_01X08 P2
+U 1 1 5763EBF2
+P 5900 1850
+F 0 "P2" H 5900 2300 50  0000 C CNN
+F 1 "CONN_01X08" V 6000 1850 50  0000 C CNN
+F 2 "D1_mini:D1_mini_Pin_Header" H 5900 1850 50  0001 C CNN
+F 3 "" H 5900 1850 50  0000 C CNN
+	1    5900 1850
+	-1   0    0    -1  
+$EndComp
+Text Label 5250 1500 2    60   ~ 0
++5V
+Text Label 5250 1600 2    60   ~ 0
+GND
+Text Label 5250 1700 2    60   ~ 0
+D4
+Text Label 5250 1800 2    60   ~ 0
+D3
+Text Label 5250 1900 2    60   ~ 0
+D2
+Text Label 5250 2000 2    60   ~ 0
+D1
+Text Label 5250 2100 2    60   ~ 0
+RX
+Text Label 5250 2200 2    60   ~ 0
+TX
+Text Label 6100 1500 0    60   ~ 0
++3.3V
+Text Label 6100 1600 0    60   ~ 0
+D8
+Text Label 6100 1700 0    60   ~ 0
+D7
+Text Label 6100 1800 0    60   ~ 0
+D6
+Text Label 6100 1900 0    60   ~ 0
+D5
+Text Label 6100 2000 0    60   ~ 0
+D0
+Text Label 6100 2100 0    60   ~ 0
+A0
+Text Label 6100 2200 0    60   ~ 0
+RST
+Text Notes 5000 1700 2    60   ~ 0
+GPIO2
+Text Notes 5000 1800 2    60   ~ 0
+GPIO0
+Text Notes 5000 1900 2    60   ~ 0
+GPIO4
+Text Notes 5000 2000 2    60   ~ 0
+GPIO5
+Text Notes 6450 1600 0    60   ~ 0
+GPIO15
+Text Notes 6450 1700 0    60   ~ 0
+GPIO13
+Text Notes 6450 1800 0    60   ~ 0
+GPIO12
+Text Notes 6450 1900 0    60   ~ 0
+GPIO14
+Text Notes 6450 2000 0    60   ~ 0
+GPIO16
+Text Notes 4350 1050 0    60   ~ 0
+D1 Mini Shield
+$Comp
+L SparkFun-Boards:SPARKFUN_LOGIC_LEVEL_CONVERTER B1
+U 1 1 61AA8C81
+P 5600 3100
+F 0 "B1" H 5600 3760 45  0000 C CNN
+F 1 "LEVEL SHIFTER" H 5600 3676 45  0000 C CNN
+F 2 "Boards:SPARKFUN_LOGIC_LEVEL_CONVERTER" H 5600 3550 20  0001 C CNN
+F 3 "" H 5600 3100 50  0001 C CNN
+F 4 "XXX-00000" H 5600 3581 60  0000 C CNN "Field4"
+	1    5600 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3100 4950 3100
+Wire Wire Line
+	4950 3100 4850 3100
+Wire Wire Line
+	4850 3100 4850 1600
+Wire Wire Line
+	4850 1600 5250 1600
+Connection ~ 4950 3100
+Wire Wire Line
+	6250 3000 5500 3000
+Wire Wire Line
+	5500 3000 5500 2350
+Wire Wire Line
+	5500 2350 4750 2350
+Wire Wire Line
+	4750 2350 4750 1500
+Wire Wire Line
+	4750 1500 5250 1500
+Wire Wire Line
+	4950 3000 5450 3000
+Wire Wire Line
+	5450 3000 5450 2300
+Wire Wire Line
+	5450 2300 5750 2300
+Wire Wire Line
+	5750 2300 5750 1350
+Wire Wire Line
+	5750 1350 6200 1350
+Wire Wire Line
+	6200 1350 6200 1500
+Wire Wire Line
+	6200 1500 6100 1500
+Wire Wire Line
+	4950 2800 4950 2400
+Wire Wire Line
+	4950 2400 6300 2400
+Wire Wire Line
+	6300 2400 6300 1900
+Wire Wire Line
+	6300 1900 6100 1900
+Wire Wire Line
+	4950 2900 6100 2900
+Wire Wire Line
+	6100 2900 6100 2600
+Wire Wire Line
+	6100 2600 6350 2600
+Wire Wire Line
+	6350 2600 6350 1800
+Wire Wire Line
+	6350 1800 6100 1800
+Wire Wire Line
+	4950 3200 4800 3200
+Wire Wire Line
+	4800 3200 4800 3750
+Wire Wire Line
+	4800 3750 6400 3750
+Wire Wire Line
+	6400 3750 6400 1700
+Wire Wire Line
+	6400 1700 6100 1700
+Wire Wire Line
+	6450 3650 6450 1600
+Wire Wire Line
+	6450 1600 6100 1600
+$Comp
+L gb-link-socket:gb-link-socket GB1
+U 1 1 61AAA636
+P 6950 3000
+F 0 "GB1" V 6988 2481 60  0000 R CNN
+F 1 "gb-link-socket" V 6882 2481 60  0000 R CNN
+F 2 "gb-link-socket:gb-link-socket" H 6750 3000 60  0001 C CNN
+F 3 "" H 6750 3000 60  0000 C CNN
+	1    6950 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 3300 6600 3300
+Wire Wire Line
+	6600 3300 6600 3100
+Wire Wire Line
+	6600 3100 6250 3100
+Connection ~ 6250 3100
+Wire Wire Line
+	6950 2800 6250 2800
+Wire Wire Line
+	6950 2900 6250 2900
+Wire Wire Line
+	6950 3100 6800 3100
+Wire Wire Line
+	6800 3100 6800 3200
+Wire Wire Line
+	6800 3200 6250 3200
+Wire Wire Line
+	6550 3300 6250 3300
+$Comp
+L SparkFun-LED:LED3MM D1
+U 1 1 61AE93E7
+P 7150 2300
+F 0 "D1" H 6987 2155 45  0000 R CNN
+F 1 "LED3MM" H 6987 2239 45  0000 R CNN
+F 2 "LED:LED_3MM" V 6950 2300 20  0001 C CNN
+F 3 "" H 7150 2300 50  0001 C CNN
+F 4 "DIO-08794" H 6987 2334 60  0000 R CNN "Field4"
+	1    7150 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun-Resistors:1KOHM-HORIZ-1_4W-1% R1
+U 1 1 61AEC6FB
+P 7200 1800
+F 0 "R1" H 7200 1500 45  0000 C CNN
+F 1 "1KOHM-HORIZ-1_4W-1%" H 7200 1584 45  0000 C CNN
+F 2 "Resistors:AXIAL-0.3" H 7200 1950 20  0001 C CNN
+F 3 "" H 7200 1800 60  0001 C CNN
+F 4 "RES-12182" H 7200 1679 60  0000 C CNN "Field4"
+	1    7200 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 2400 7150 2400
+Wire Wire Line
+	7150 2100 7150 1950
+Wire Wire Line
+	7150 1950 7000 1950
+Wire Wire Line
+	7000 1950 7000 1800
+Wire Wire Line
+	7400 1800 7800 1800
+Wire Wire Line
+	7800 1800 7800 1300
+Wire Wire Line
+	7800 1300 5600 1300
+Wire Wire Line
+	5600 1300 5600 1600
+Wire Wire Line
+	5600 1600 5250 1600
+Connection ~ 5250 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 61AFA80D
+P 4500 3200
+F 0 "JP1" H 4500 2975 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 4500 3066 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4500 3200 50  0001 C CNN
+F 3 "~" H 4500 3200 50  0001 C CNN
+	1    4500 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 2700 6950 2400
+Wire Wire Line
+	6950 2700 6550 2700
+Wire Wire Line
+	6550 2700 6550 3300
+Connection ~ 6950 2700
+Wire Wire Line
+	4950 3300 4650 3300
+Wire Wire Line
+	4650 3300 4650 3200
+Wire Wire Line
+	4350 3200 4350 3650
+Wire Wire Line
+	4350 3650 6450 3650
+$EndSCHEMATC

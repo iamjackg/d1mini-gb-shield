@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name d1mini-gb-rescue)(type Legacy)(uri ${KIPRJMOD}/d1mini-gb-rescue.lib)(options "")(descr ""))
+)
