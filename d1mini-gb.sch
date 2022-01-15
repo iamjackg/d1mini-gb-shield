@@ -77,8 +77,6 @@ Text Notes 5000 2000 2    60   ~ 0
 GPIO5
 Text Notes 6450 1600 0    60   ~ 0
 GPIO15
-Text Notes 6450 1700 0    60   ~ 0
-GPIO13
 Text Notes 6450 1800 0    60   ~ 0
 GPIO12
 Text Notes 6450 1900 0    60   ~ 0
@@ -137,19 +135,11 @@ Wire Wire Line
 Wire Wire Line
 	4950 2400 6300 2400
 Wire Wire Line
-	6300 2400 6300 1900
-Wire Wire Line
-	6300 1900 6100 1900
-Wire Wire Line
 	4950 2900 6100 2900
 Wire Wire Line
 	6100 2900 6100 2600
 Wire Wire Line
 	6100 2600 6350 2600
-Wire Wire Line
-	6350 2600 6350 1800
-Wire Wire Line
-	6350 1800 6100 1800
 Wire Wire Line
 	4950 3200 4800 3200
 Wire Wire Line
@@ -263,4 +253,14 @@ Wire Wire Line
 	4350 3200 4350 3650
 Wire Wire Line
 	4350 3650 6450 3650
+Text Notes 6450 1700 0    60   ~ 0
+GPIO13
+Wire Wire Line
+	6350 2600 6350 1900
+Wire Wire Line
+	6350 1900 6100 1900
+Wire Wire Line
+	6300 2400 6300 1800
+Wire Wire Line
+	6300 1800 6100 1800
 $EndSCHEMATC
