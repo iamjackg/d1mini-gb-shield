@@ -8,7 +8,7 @@ The link cable connects directly to the PCB. The shield also has room for an opt
 
 It can be used with a bunch of cool projects:
 
-- [ESP32 + Phomemo T02 Game Boy Printer](https://github.com/iamjackg/esp32-phomemo-gameboy-printer) https://github.com/iamjackg/esp32-phomemo-gameboy-printer
+- [ESP32 + Phomemo T02 Game Boy Printer](https://github.com/iamjackg/esp32-phomemo-gameboy-printer)
 - [NeoGB Printer](https://github.com/zenaro147/NeoGB-Printer) 
 - [ESP8266 Gameboy Printer](https://github.com/applefreak/esp8266-gameboy-printer)
 
@@ -41,7 +41,7 @@ The Game Boy runs at 5V, but both the ESP8266 and the ESP32 use 3.3V. You will n
 
 #### Pins
 
-Your ESP board might come with these, but you'll need **two 8-pin male headers** to solder/connect the shield to the microcontroller board. The [https://www.sparkfun.com/products/18221](SparkFun 10-Pin Header) is a good example (you can just snip off two pins).
+Your ESP board might come with these, but you'll need **two 8-pin male headers** to solder/connect the shield to the microcontroller board. The [SparkFun 10-Pin Header](https://www.sparkfun.com/products/18221) is a good example (you can just snip off two pins).
 
 #### Game Boy Link Cable
 
